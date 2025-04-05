@@ -24,7 +24,7 @@ A FastAPI service to analyze numerical datasets for compliance with Benford's La
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/benford-analysis.git
+git clone https://github.com/artemijo/benford_analysis.git
 cd benford-analysis
 
 # Using poetry
