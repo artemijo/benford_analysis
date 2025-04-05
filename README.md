@@ -98,7 +98,10 @@ uvicorn main:app --host 127.0.0.1 --port 5000
 
 Run unit tests:
 ```bash
-python -m unittest discover -s tests
+#benford_analysis/app
+python3 updated_parsing_testo.py
+python3 parsing_testo.py
+python3 small_testo.py
 ```
 
 ## Troubleshooting
@@ -118,16 +121,3 @@ python -m unittest discover -s tests
 5. Create Pull Request
 
 
-Key features of this README:
-1. Clear installation instructions for different environments
-2. API usage examples with curl and Python
-3. Response format documentation
-4. Testing and troubleshooting guidance
-5. Contribution guidelines
-6. License information
-
-You might want to:
-1. Add screenshots of the visualization plot
-2. Include sample dataset files
-3. Add CI/CD badge if implemented
-4. Customize with your project's specific error codes or additional features
