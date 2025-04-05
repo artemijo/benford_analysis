@@ -8,8 +8,7 @@ A FastAPI service to analyze numerical datasets for compliance with Benford's La
 - **File Support**: CSV, Excel (XLS/XLSX), PDF, and text files
 - **Statistical Analysis**:
   - Chi-squared goodness-of-fit test
-  - Cramér's V effect size
-  - Mean Absolute Deviation (MAD)
+  - Benford's law analysis
 - **Anomaly Detection**:
   - Recursive bisection analysis
   - Bonferroni-corrected significance
