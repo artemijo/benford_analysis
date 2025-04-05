@@ -59,9 +59,7 @@ curl -X POST -F "file=@financial_data.csv" http://localhost:8000/analyze
 {
   "status": "anomalous",
   "stats": {
-    "chi2_p": 3.95e-38,
-    "cramers_v": 0.27,
-    "mad": 0.006
+    "chi2_p": 3.95e-38
   },
   "plot": "base64_encoded_image",
   "anomalous_regions": [
@@ -69,7 +67,6 @@ curl -X POST -F "file=@financial_data.csv" http://localhost:8000/analyze
       "start_index": 0,
       "end_index": 4567,
       "p_chi": 1.42e-56,
-      "cramers_v": 0.35,
       "depth": 1
     }
   ]
