@@ -84,8 +84,6 @@ curl -X POST -F "file=@financial_data.csv" http://localhost:8000/analyze
 |-------|-------------|
 | `status` | "anomalous" or "normal" |
 | `stats.chi2_p` | Chi-squared test p-value |
-| `stats.cramers_v` | Effect size (0-1) |
-| `stats.mad` | Mean Absolute Deviation |
 | `plot` | Base64 PNG of distribution comparison |
 | `anomalous_regions` | Significant anomalous regions |
 
